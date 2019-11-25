@@ -1,10 +1,34 @@
 <div class="container">
-  <div class="row w-100">
-    <div class="col text-left">
-
+  <div class="row p-2 pl-3 justify-content-start">
+    <h4 class="text-uppercase text-dark font-weight-bold">Матеріли.</h4>
+  </div>
+  <div class="row dropdown-divider w-100"></div>
+  <div class="row  justify-content-between">
+    <div class="col-6 text-left">
+      <a class="position-relative" [routerLink]="['/material/subject1/innovation']">
+        <img src="../../assets/image/technology.png" class="img-thumbnail img-fluid border-0 bg-transparent">
+        <h5 class="position-absolute top-0 text-dark font-weight-bold">Основні поняття про сучасні технології.</h5>
+      </a>
     </div>
     <div class="col-4">
-
+      <div class="col">
+        <a class="position-relative" [routerLink]="['/material/subject1/options']">
+          <img src="../../assets/image/eLesson.png" class="img-thumbnail img-fluid border-0 bg-transparent">
+          <h5 class="position-absolute top-0 text-dark font-weight-bold">Тлумачення по темі ,плюси та мінуси навчання, основні властивості електронного навчання.</h5>
+        </a>
+      </div>
+      <div class="col">
+        <a class="position-relative" [routerLink]="['/material/subject2/profession']">
+          <img src="../../assets/image/treacher.jpg" class="img-thumbnail img-fluid border-0 bg-transparent">
+          <h5 class="position-absolute top-0 text-white w-100 font-weight-bold">Професійна підготовка майбутніх педагогів засобами.</h5>
+        </a>
+      </div>
     </div>
+  </div>
+  <div class="row p-2 pl-3 justify-content-start">
+    <h4 class="text-uppercase text-dark font-weight-bold">Додаткова Інформація.</h4>
+  </div>
+  <div class="row w-100 dropdown-divider">
+
   </div>
 </div>
