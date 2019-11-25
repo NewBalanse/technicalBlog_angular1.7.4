@@ -1,0 +1,54 @@
+<div class="container border-left border-right">
+  <div class="row">
+    <div class="col-4 nav-bg">
+      <ul class="nav text-left">
+        <li class="nav-item">
+          <a class="nav-link align-items-center text-decoration-none text-dark" [routerLink]="['subject1']">
+            <h5 class="dropdown-toggle">Розділ 1</h5>
+          </a>
+          <div class="col ml-4">
+            <ul class="nav text-left">
+              <li class="nav-item">
+                <a class="nav-link text-decoration-none text-dark" [routerLink]="['subject1/innovation']">
+                  <span>Основні поняття про сучасні технології </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-decoration-none text-dark" [routerLink]="['subject1/options']">
+                  <span>Тлумачення по темі ,плюси та мінуси навчання, основні властивості електронного навчання</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link align-items-center text-dark text-decoration-none" [routerLink]="['subject2']">
+            <h5 class="dropdown-toggle">Розділ 2</h5>
+          </a>
+          <div class="col ml-4">
+            <ul class="nav text-left">
+              <li class="nav-item">
+                <a class="nav-link text-decoration-none text-dark" [routerLink]="['subject2/technology']">
+                  <span>Розвиток сучасних освітніх технологій </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-decoration-none text-dark" [routerLink]="['subject2/profession']">
+                  <span>Професійна підготовка майбутніх педагогів</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link align-items-center text-dark text-decoration-none" [routerLink]="['illation']">
+            <h5>Висновки</h5>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
