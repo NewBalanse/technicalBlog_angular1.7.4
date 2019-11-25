@@ -4,6 +4,7 @@ import {HomeComponent} from './home/home.component';
 import {MaterialComponent} from './material/material.component';
 import {Subject1Component} from './material/subject1/subject1.component';
 import {Subject2Component} from './material/subject2/subject2.component';
+import {InformationComponent} from './information/information.component';
 
 const route: Routes = [{
   path: '',
@@ -12,6 +13,9 @@ const route: Routes = [{
 }, {
   path: 'home',
   component: HomeComponent
+}, {
+  path: 'info',
+  component: InformationComponent
 }];
 
 @NgModule({

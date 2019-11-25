@@ -11,6 +11,7 @@ import {Subject1Component} from './material/subject1/subject1.component';
 import {Subject2Component} from './material/subject2/subject2.component';
 import {RouterChildrenModule} from './router.children.module';
 import {IllationComponent} from './material/illation/illation.component';
+import {InformationComponent} from './information/information.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import {IllationComponent} from './material/illation/illation.component';
     MaterialComponent,
     Subject1Component,
     Subject2Component,
-    IllationComponent
+    IllationComponent,
+    InformationComponent
   ],
   imports: [
     BrowserModule,
